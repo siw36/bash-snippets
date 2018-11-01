@@ -13,7 +13,7 @@ function NUMERIC_MENU () {
 		((i++))
 	done
 
-	read -r -p "Choose one entry from the following (num): " SELECTION
+	read -r -p "Choose one entry from the above (num): " SELECTION
 
 	SELECTION=${OUTPUT[$SELECTION]}
 }
